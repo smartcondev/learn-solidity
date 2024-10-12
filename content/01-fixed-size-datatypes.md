@@ -84,7 +84,7 @@ function getAddressFail()
 
 An address is represented as a hex string that has 40 characters in it, and always starts with 0x. A valid hex string contains the characters [0-9] or [a-f] inclusive.
 
-**Warning**: be careful when typing addresses manually. Solidity will covert 0x1 into an address with the value 0x0000000000000000000000000000000000000001. If you have an address with less than 40 hex characters, it will pad it with leading zeros.
+**Warning**: be careful when typing addresses manually. Solidity will convert 0x1 into an address with the value 0x0000000000000000000000000000000000000001. If you have an address with less than 40 hex characters, it will pad it with leading zeros.
 
 If you create an address with more than 40 characters, it won’t compile.
 
